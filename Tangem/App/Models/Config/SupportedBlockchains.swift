@@ -141,6 +141,8 @@ struct SupportedBlockchains {
             .energyWebEVM(testnet: false),
             .energyWebX(curve: ed25519Curve(for: version)),
             .core(testnet: false),
+            .thorchain,
+            .mayachain,
         ]
     }
 
